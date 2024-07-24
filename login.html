@@ -25,7 +25,7 @@
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
     
-    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <link rel="icon" type="image/png" href="@{/images/icons/favicon.ico}" />
     <link rel="stylesheet" th:href="@{${bootstrapCss}}" />
     <link rel="stylesheet" th:href="@{/css/login.css}" />
     <link rel="stylesheet" th:href="@{${fontAwesomeCss}}" />
@@ -38,7 +38,7 @@
         <div class="container-login100">
             <div class="wrap-login100">
                 <div class="login100-pic js-tilt" data-tilt>
-                    <img src="images/rdmlogo.png" alt="IMG">
+                    <img src="@{/images/rdmlogo.png}" alt="IMG">
                 </div>
                 <form class="login100-form validate-form" method="POST" th:action="@{/login}">
                     <span class="login100-form-title">
